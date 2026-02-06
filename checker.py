@@ -42,7 +42,7 @@ def scrape_photography_vendors():
     wait = WebDriverWait(driver, 10)
     
     try:
-        driver.get("https://dev.eventsmonial.com/event-vendors/catering?view=Grid")
+        driver.get("https://dev.eventsmonial.com/event-vendors/photography?view=Grid")
         
         all_vendors = []
         page_num = 1
